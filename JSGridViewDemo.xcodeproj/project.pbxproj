@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9380AA0155A25D3009D7FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9380A9F155A25D3009D7FF5 /* UIKit.framework */; };
+		E9380AA2155A25D3009D7FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9380AA1155A25D3009D7FF5 /* Foundation.framework */; };
+		E9380AA4155A25D3009D7FF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9380AA3155A25D3009D7FF5 /* CoreGraphics.framework */; };
+		E9380AAA155A25D3009D7FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9380AA8155A25D3009D7FF5 /* InfoPlist.strings */; };
+		E9380AAC155A25D3009D7FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9380AAB155A25D3009D7FF5 /* main.m */; };
+		E9380AB0155A25D3009D7FF5 /* HHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9380AAF155A25D3009D7FF5 /* HHAppDelegate.m */; };
+		E9380AB3155A25D3009D7FF5 /* HHMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9380AB2155A25D3009D7FF5 /* HHMasterViewController.m */; };
+		E9380AB6155A25D3009D7FF5 /* HHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9380AB5155A25D3009D7FF5 /* HHDetailViewController.m */; };
+		E9380AB9155A25D3009D7FF5 /* HHMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9380AB7155A25D3009D7FF5 /* HHMasterViewController.xib */; };
+		E9380ABC155A25D3009D7FF5 /* HHDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9380ABA155A25D3009D7FF5 /* HHDetailViewController.xib */; };
+		E9380AC7155A260C009D7FF5 /* JSGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9380AC4155A260C009D7FF5 /* JSGridView.m */; };
+		E9380AC8155A260C009D7FF5 /* JSGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9380AC6155A260C009D7FF5 /* JSGridViewCell.m */; };
+		E9380ADA155A345E009D7FF5 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380AC9155A345E009D7FF5 /* 1.jpeg */; };
+		E9380ADC155A345E009D7FF5 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380ACB155A345E009D7FF5 /* 2.jpeg */; };
+		E9380ADD155A345E009D7FF5 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380ACC155A345E009D7FF5 /* 3.jpeg */; };
+		E9380ADF155A345E009D7FF5 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380ACE155A345E009D7FF5 /* 4.jpeg */; };
+		E9380AE0155A345E009D7FF5 /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380ACF155A345E009D7FF5 /* 5.jpeg */; };
+		E9380AE2155A345E009D7FF5 /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380AD1155A345E009D7FF5 /* 6.jpeg */; };
+		E9380AE3155A345E009D7FF5 /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380AD2155A345E009D7FF5 /* 7.jpeg */; };
+		E9380AE5155A345E009D7FF5 /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380AD4155A345E009D7FF5 /* 8.jpeg */; };
+		E9380AE8155A345E009D7FF5 /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380AD7155A345E009D7FF5 /* 9.jpeg */; };
+		E9380AE9155A345E009D7FF5 /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380AD8155A345E009D7FF5 /* 10.jpeg */; };
+		E9380AEA155A345E009D7FF5 /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E9380AD9155A345E009D7FF5 /* 0.jpeg */; };
+		E963AF21155A97C000CAC836 /* HHDetailView1Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = E963AF1F155A97C000CAC836 /* HHDetailView1Controller.m */; };
+		E963AF22155A97C000CAC836 /* HHDetailView1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = E963AF20155A97C000CAC836 /* HHDetailView1Controller.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9380A9B155A25D3009D7FF5 /* JSGridViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSGridViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9380A9F155A25D3009D7FF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9380AA1155A25D3009D7FF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9380AA3155A25D3009D7FF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9380AA7155A25D3009D7FF5 /* JSGridViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSGridViewDemo-Info.plist"; sourceTree = "<group>"; };
+		E9380AA9155A25D3009D7FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9380AAB155A25D3009D7FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9380AAD155A25D3009D7FF5 /* JSGridViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSGridViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E9380AAE155A25D3009D7FF5 /* HHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAppDelegate.h; sourceTree = "<group>"; };
+		E9380AAF155A25D3009D7FF5 /* HHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAppDelegate.m; sourceTree = "<group>"; };
+		E9380AB1155A25D3009D7FF5 /* HHMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHMasterViewController.h; sourceTree = "<group>"; };
+		E9380AB2155A25D3009D7FF5 /* HHMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHMasterViewController.m; sourceTree = "<group>"; };
+		E9380AB4155A25D3009D7FF5 /* HHDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHDetailViewController.h; sourceTree = "<group>"; };
+		E9380AB5155A25D3009D7FF5 /* HHDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHDetailViewController.m; sourceTree = "<group>"; };
+		E9380AB8155A25D3009D7FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HHMasterViewController.xib; sourceTree = "<group>"; };
+		E9380ABB155A25D3009D7FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HHDetailViewController.xib; sourceTree = "<group>"; };
+		E9380AC3155A260C009D7FF5 /* JSGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGridView.h; sourceTree = "<group>"; };
+		E9380AC4155A260C009D7FF5 /* JSGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGridView.m; sourceTree = "<group>"; };
+		E9380AC5155A260C009D7FF5 /* JSGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGridViewCell.h; sourceTree = "<group>"; };
+		E9380AC6155A260C009D7FF5 /* JSGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGridViewCell.m; sourceTree = "<group>"; };
+		E9380AC9155A345E009D7FF5 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		E9380ACB155A345E009D7FF5 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		E9380ACC155A345E009D7FF5 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		E9380ACE155A345E009D7FF5 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		E9380ACF155A345E009D7FF5 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		E9380AD1155A345E009D7FF5 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		E9380AD2155A345E009D7FF5 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		E9380AD4155A345E009D7FF5 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		E9380AD7155A345E009D7FF5 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+		E9380AD8155A345E009D7FF5 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		E9380AD9155A345E009D7FF5 /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
+		E963AF1E155A97C000CAC836 /* HHDetailView1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHDetailView1Controller.h; sourceTree = "<group>"; };
+		E963AF1F155A97C000CAC836 /* HHDetailView1Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHDetailView1Controller.m; sourceTree = "<group>"; };
+		E963AF20155A97C000CAC836 /* HHDetailView1Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHDetailView1Controller.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9380A98155A25D3009D7FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9380AA0155A25D3009D7FF5 /* UIKit.framework in Frameworks */,
+				E9380AA2155A25D3009D7FF5 /* Foundation.framework in Frameworks */,
+				E9380AA4155A25D3009D7FF5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9380A90155A25D3009D7FF5 = {
+			isa = PBXGroup;
+			children = (
+				E9380AA5155A25D3009D7FF5 /* JSGridViewDemo */,
+				E9380A9E155A25D3009D7FF5 /* Frameworks */,
+				E9380A9C155A25D3009D7FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9380A9C155A25D3009D7FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9380A9B155A25D3009D7FF5 /* JSGridViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9380A9E155A25D3009D7FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9380A9F155A25D3009D7FF5 /* UIKit.framework */,
+				E9380AA1155A25D3009D7FF5 /* Foundation.framework */,
+				E9380AA3155A25D3009D7FF5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9380AA5155A25D3009D7FF5 /* JSGridViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E9380AC2155A260C009D7FF5 /* gridview */,
+				E9380AAE155A25D3009D7FF5 /* HHAppDelegate.h */,
+				E9380AAF155A25D3009D7FF5 /* HHAppDelegate.m */,
+				E9380AB1155A25D3009D7FF5 /* HHMasterViewController.h */,
+				E9380AB2155A25D3009D7FF5 /* HHMasterViewController.m */,
+				E9380AB4155A25D3009D7FF5 /* HHDetailViewController.h */,
+				E9380AB5155A25D3009D7FF5 /* HHDetailViewController.m */,
+				E963AF1E155A97C000CAC836 /* HHDetailView1Controller.h */,
+				E963AF1F155A97C000CAC836 /* HHDetailView1Controller.m */,
+				E9380AB7155A25D3009D7FF5 /* HHMasterViewController.xib */,
+				E9380ABA155A25D3009D7FF5 /* HHDetailViewController.xib */,
+				E963AF20155A97C000CAC836 /* HHDetailView1Controller.xib */,
+				E9380AA6155A25D3009D7FF5 /* Supporting Files */,
+			);
+			path = JSGridViewDemo;
+			sourceTree = "<group>";
+		};
+		E9380AA6155A25D3009D7FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9380AA7155A25D3009D7FF5 /* JSGridViewDemo-Info.plist */,
+				E9380AA8155A25D3009D7FF5 /* InfoPlist.strings */,
+				E9380AAB155A25D3009D7FF5 /* main.m */,
+				E9380AAD155A25D3009D7FF5 /* JSGridViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9380AC2155A260C009D7FF5 /* gridview */ = {
+			isa = PBXGroup;
+			children = (
+				E9380AC3155A260C009D7FF5 /* JSGridView.h */,
+				E9380AC4155A260C009D7FF5 /* JSGridView.m */,
+				E9380AC5155A260C009D7FF5 /* JSGridViewCell.h */,
+				E9380AC6155A260C009D7FF5 /* JSGridViewCell.m */,
+				E9380AD9155A345E009D7FF5 /* 0.jpeg */,
+				E9380AC9155A345E009D7FF5 /* 1.jpeg */,
+				E9380ACB155A345E009D7FF5 /* 2.jpeg */,
+				E9380ACC155A345E009D7FF5 /* 3.jpeg */,
+				E9380ACE155A345E009D7FF5 /* 4.jpeg */,
+				E9380ACF155A345E009D7FF5 /* 5.jpeg */,
+				E9380AD1155A345E009D7FF5 /* 6.jpeg */,
+				E9380AD2155A345E009D7FF5 /* 7.jpeg */,
+				E9380AD4155A345E009D7FF5 /* 8.jpeg */,
+				E9380AD7155A345E009D7FF5 /* 9.jpeg */,
+				E9380AD8155A345E009D7FF5 /* 10.jpeg */,
+			);
+			path = gridview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9380A9A155A25D3009D7FF5 /* JSGridViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9380ABF155A25D3009D7FF5 /* Build configuration list for PBXNativeTarget "JSGridViewDemo" */;
+			buildPhases = (
+				E9380A97155A25D3009D7FF5 /* Sources */,
+				E9380A98155A25D3009D7FF5 /* Frameworks */,
+				E9380A99155A25D3009D7FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSGridViewDemo;
+			productName = JSGridViewDemo;
+			productReference = E9380A9B155A25D3009D7FF5 /* JSGridViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9380A92155A25D3009D7FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HH;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E9380A95155A25D3009D7FF5 /* Build configuration list for PBXProject "JSGridViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9380A90155A25D3009D7FF5;
+			productRefGroup = E9380A9C155A25D3009D7FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9380A9A155A25D3009D7FF5 /* JSGridViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9380A99155A25D3009D7FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9380AAA155A25D3009D7FF5 /* InfoPlist.strings in Resources */,
+				E9380AB9155A25D3009D7FF5 /* HHMasterViewController.xib in Resources */,
+				E9380ABC155A25D3009D7FF5 /* HHDetailViewController.xib in Resources */,
+				E9380ADA155A345E009D7FF5 /* 1.jpeg in Resources */,
+				E9380ADC155A345E009D7FF5 /* 2.jpeg in Resources */,
+				E9380ADD155A345E009D7FF5 /* 3.jpeg in Resources */,
+				E9380ADF155A345E009D7FF5 /* 4.jpeg in Resources */,
+				E9380AE0155A345E009D7FF5 /* 5.jpeg in Resources */,
+				E9380AE2155A345E009D7FF5 /* 6.jpeg in Resources */,
+				E9380AE3155A345E009D7FF5 /* 7.jpeg in Resources */,
+				E9380AE5155A345E009D7FF5 /* 8.jpeg in Resources */,
+				E9380AE8155A345E009D7FF5 /* 9.jpeg in Resources */,
+				E9380AE9155A345E009D7FF5 /* 10.jpeg in Resources */,
+				E9380AEA155A345E009D7FF5 /* 0.jpeg in Resources */,
+				E963AF22155A97C000CAC836 /* HHDetailView1Controller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9380A97155A25D3009D7FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9380AAC155A25D3009D7FF5 /* main.m in Sources */,
+				E9380AB0155A25D3009D7FF5 /* HHAppDelegate.m in Sources */,
+				E9380AB3155A25D3009D7FF5 /* HHMasterViewController.m in Sources */,
+				E9380AB6155A25D3009D7FF5 /* HHDetailViewController.m in Sources */,
+				E9380AC7155A260C009D7FF5 /* JSGridView.m in Sources */,
+				E9380AC8155A260C009D7FF5 /* JSGridViewCell.m in Sources */,
+				E963AF21155A97C000CAC836 /* HHDetailView1Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9380AA8155A25D3009D7FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9380AA9155A25D3009D7FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9380AB7155A25D3009D7FF5 /* HHMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9380AB8155A25D3009D7FF5 /* en */,
+			);
+			name = HHMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		E9380ABA155A25D3009D7FF5 /* HHDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9380ABB155A25D3009D7FF5 /* en */,
+			);
+			name = HHDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9380ABD155A25D3009D7FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9380ABE155A25D3009D7FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9380AC0155A25D3009D7FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSGridViewDemo/JSGridViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JSGridViewDemo/JSGridViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9380AC1155A25D3009D7FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSGridViewDemo/JSGridViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "JSGridViewDemo/JSGridViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9380A95155A25D3009D7FF5 /* Build configuration list for PBXProject "JSGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9380ABD155A25D3009D7FF5 /* Debug */,
+				E9380ABE155A25D3009D7FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9380ABF155A25D3009D7FF5 /* Build configuration list for PBXNativeTarget "JSGridViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9380AC0155A25D3009D7FF5 /* Debug */,
+				E9380AC1155A25D3009D7FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9380A92155A25D3009D7FF5 /* Project object */;
+}
