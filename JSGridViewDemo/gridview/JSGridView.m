@@ -382,7 +382,7 @@ static CGPoint latestContentOffset = (CGPoint){0, 0};
 
 - (void)setDelegate:(id<JSGridViewDelegate>)obj {
     if ( (obj!=nil) && ([obj conformsToProtocol:@protocol(JSGridViewDelegate)]==NO ))
-		[NSException raise: NSInvalidArgumentException format: @"Argument to -setDelegate must conform to the JSGridViewDelegate protocol"];
+        [NSException raise: NSInvalidArgumentException format: @"Argument to -setDelegate must conform to the JSGridViewDelegate protocol"];
     delegate = obj;
     super.delegate = obj;
     _gridViewFlags.dalegateHeightAtRowAndColumnIndex = (obj && [obj respondsToSelector:@selector(gridView:heightForCellAtRow:column:)]);
@@ -396,8 +396,8 @@ static CGPoint latestContentOffset = (CGPoint){0, 0};
 
 - (void)setDataSource:(id<JSGridViewDataSource>)obj {
     if ((obj != nil) && ([obj conformsToProtocol:@protocol(JSGridViewDataSource)] == NO ))
-		[NSException raise: NSInvalidArgumentException format: @"Argument to -setDataSource must conform to the JSGridViewDataSource protocol"];
-	_dataSource = obj;
+        [NSException raise: NSInvalidArgumentException format: @"Argument to -setDataSource must conform to the JSGridViewDataSource protocol"];
+    _dataSource = obj;
     _gridViewFlags.dataSourceWidthForCellAtColumnIndex = (obj && [obj respondsToSelector:@selector(gridView:widthForCellAtColumnIndex:)]);
     _gridViewFlags.dataSourceHeightForCellAtRowAndColumn = (obj && [obj respondsToSelector:@selector(gridView:heightForCellAtRow:column:)]);
     _gridViewFlags.dataSourceNumberOfConstColumnsInGridView = (obj && [obj respondsToSelector:@selector(numberOfConstColumnsInGridView:)]);
@@ -425,7 +425,7 @@ static CGPoint latestContentOffset = (CGPoint){0, 0};
 - (void)reloadData {
     [self resetUsingCells];
     [self prepareLoadView];
-	[self setNeedsDisplay];
+//    [self setNeedsDisplay];
 }
 
 @end
