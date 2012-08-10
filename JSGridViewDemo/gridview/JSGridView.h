@@ -5,6 +5,7 @@
 //  Created by Song Jey on 4/28/12.
 //  Copyright (c) 2012 Jey Song. All rights reserved.
 //
+//    http://www.apache.org/licenses/LICENSE-2.0
 
 #import <UIKit/UIKit.h>
 
@@ -49,7 +50,7 @@ typedef enum _JSGridViewScrollDirection {
         
         unsigned int dalegateHeightAtRowAndColumnIndex:1;
         unsigned int delegateWillDisplayCellAtRowIndexColumnIndex:1;
-        unsigned int delegateDidSelectRowIndexAndColumnIndex:1;
+//        unsigned int delegateDidSelectRowIndexAndColumnIndex:1;
         unsigned int delegateScrolledToEdge:1;
         unsigned int delegateFooterOnTableView;
         unsigned int delegateHeightForFooterOnTableView;
@@ -99,7 +100,7 @@ typedef enum _JSGridViewScrollDirection {
 - (void)gridView:(JSGridView *)gridView willDisplayCell:(JSGridViewCell *)cell atRowIndex:(NSInteger)row columnIndex:(NSInteger)column;
 
 //- (void)gridViewDidLoad:(JSGridView *)gridView;
-- (void)gridView:(JSGridView *)gridView didSelectRowIndex:(NSInteger)row columnIndex:(NSInteger)column;
+//- (void)gridView:(JSGridView *)gridView didSelectRowIndex:(NSInteger)row columnIndex:(NSInteger)column;
 - (void)gridView:(JSGridView *)gridView scrolledToEdge:(JSGridViewEdge)edge;
 //- (void)gridView:(JSGridView *)gridView didProgrammaticallyScrollToRow:(NSInteger)rowIndex column:(NSInteger)columnIndex;
 @end

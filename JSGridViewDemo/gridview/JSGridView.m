@@ -5,6 +5,7 @@
 //  Created by Song Jey on 4/28/12.
 //  Copyright (c) 2012 Jey Song. All rights reserved.
 //
+//    http://www.apache.org/licenses/LICENSE-2.0
 
 #import "JSGridView.h"
 
@@ -387,7 +388,7 @@ static CGPoint latestContentOffset = (CGPoint){0, 0};
     super.delegate = obj;
     _gridViewFlags.dalegateHeightAtRowAndColumnIndex = (obj && [obj respondsToSelector:@selector(gridView:heightForCellAtRow:column:)]);
     _gridViewFlags.delegateWillDisplayCellAtRowIndexColumnIndex = (obj && [obj respondsToSelector:@selector(gridView:willDisplayCell:atRowIndex:columnIndex:)]);
-    _gridViewFlags.delegateDidSelectRowIndexAndColumnIndex = (obj && [obj respondsToSelector:@selector(gridView:didSelectRowIndex:columnIndex:)]);
+//    _gridViewFlags.delegateDidSelectRowIndexAndColumnIndex = (obj && [obj respondsToSelector:@selector(gridView:didSelectRowIndex:columnIndex:)]);
     _gridViewFlags.delegateScrolledToEdge = (obj && [obj respondsToSelector:@selector(gridView:scrolledToEdge:)]);
     _gridViewFlags.delegateFooterOnTableView = (obj && [obj respondsToSelector:@selector(footerOnTableView:)]);
     _gridViewFlags.delegateHeightForFooterOnTableView = (obj && [obj respondsToSelector:@selector(heightForFooterOnTableView:)]);

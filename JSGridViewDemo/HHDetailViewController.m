@@ -150,7 +150,10 @@
 //        imageView.backgroundColor = HHColor(110.0, 110.0, 110.0, 0.4);
         [cell addSubview:imageView];
         [imageView release];
+        cell.delegate = self;
     }
+    cell.row = row;
+    cell.column = column;
     NSDictionary *oneDic = [array objectAtIndex:row];
     UIImageView *imageView = (UIImageView *)[cell viewWithTag:50];
     float height = [[oneDic objectForKey:@"usingHeight"] floatValue];
@@ -158,5 +161,9 @@
     int i = (row*column+row+column)%[_images count];
     imageView.image = [_images objectAtIndex:i];
     return cell;
-}					
+}
+
+- (void)gridViewCellWasTouched:(JSGridViewCell *)gridViewCell {
+    NSLog(@"row : %d, column : %d", gridViewCell.row, gridViewCell.column);
+}
 @end

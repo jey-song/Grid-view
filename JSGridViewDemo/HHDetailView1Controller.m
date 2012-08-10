@@ -148,7 +148,10 @@
         imageView.tag = 50;
         [cell addSubview:imageView];
         [imageView release];
+        cell.delegate = self;
     }
+    cell.row = row;
+    cell.column = column;
     NSDictionary *oneDic = [array objectAtIndex:column];
     UIImageView *imageView = (UIImageView *)[cell viewWithTag:50];
     float width = [[oneDic objectForKey:@"usingWidth"] floatValue];
@@ -156,5 +159,9 @@
     int i = (row*column+row+column)%[_images count];
     imageView.image = [_images objectAtIndex:i];
     return cell;
-}					
+}
+
+- (void)gridViewCellWasTouched:(JSGridViewCell *)gridViewCell {
+    NSLog(@"row : %d, column : %d", gridViewCell.row, gridViewCell.column);
+}
 @end

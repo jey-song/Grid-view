@@ -5,6 +5,7 @@
 //  Created by Song Jey on 4/28/12.
 //  Copyright (c) 2012 Jey Song. All rights reserved.
 //
+//    http://www.apache.org/licenses/LICENSE-2.0
 
 
 #import "JSGridView.h"
@@ -16,7 +17,7 @@
 
 @implementation JSGridViewCell
 
-@synthesize xPosition, yPosition, identifier, delegate, selected;
+@synthesize row, column, identifier, delegate, selected;
 @synthesize highlighted;
 
 @dynamic frame;
