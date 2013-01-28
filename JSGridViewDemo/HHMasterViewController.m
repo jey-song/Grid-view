@@ -56,8 +56,8 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
-
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
+    // Thanks for cocoachina.com ---> 夹脚鞋走遍世界
+    id object = [_objects objectAtIndex:indexPath.row];
     cell.textLabel.text = [object description];
     return cell;
 }
